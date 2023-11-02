@@ -8,6 +8,6 @@ import net.minecraft.world.item.ItemStack;
 public class TrackReplacePaverImpl {
     public static ItemStack extract(ItemStack filter, MovementContext context, int amt) {
         return ItemHelper.extract(context.contraption.getSharedInventory(),
-                stack -> FilterItem.test(context.world, stack, filter), amt, false);
+                stack -> context.getFilterFromBE().test(context.world, stack), amt, false);
     }
 }
