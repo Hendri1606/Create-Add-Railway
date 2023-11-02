@@ -1,3 +1,5 @@
+v1.5.3:
+- Update to create 0.5.1f
 v1.5.1:
 - Fix NPE in ConductorCapItem
 - feat: Implement a Optifine Warning Screen
