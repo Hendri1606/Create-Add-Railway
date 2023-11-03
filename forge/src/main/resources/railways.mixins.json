@@ -9,6 +9,7 @@
     "TrainHUDMixin"
   ],
   "mixins": [
+    "NavigationMixin",
     "RollingModeMixin",
     "ServerGamePacketListenerImplMixin",
     "SlidingDoorBlockMixin"

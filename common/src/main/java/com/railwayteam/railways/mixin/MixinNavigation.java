@@ -83,10 +83,11 @@ public abstract class MixinNavigation implements IWaypointableNavigation, IGener
         return instance.distanceToDestination;
     }
 
-    @Redirect(method = "search(DDZLcom/simibubi/create/content/trains/entity/Navigation$StationTest;)V", at = @At(value = "INVOKE", target = "Lcom/simibubi/create/content/trains/station/GlobalStation;getPresentTrain()Lcom/simibubi/create/content/trains/entity/Train;"))
-    private Train replacePresentTrain(GlobalStation instance) {
-        return ((ILimitedGlobalStation) instance).orDisablingTrain(instance.getPresentTrain(), train);
-    }
+    //fixme
+//    @Redirect(method = "search(DDZLcom/simibubi/create/content/trains/entity/Navigation$StationTest;)V", at = @At(value = "INVOKE", target = "Lcom/simibubi/create/content/trains/station/GlobalStation;getPresentTrain()Lcom/simibubi/create/content/trains/entity/Train;"))
+//    private Train replacePresentTrain(GlobalStation instance) {
+//        return ((ILimitedGlobalStation) instance).orDisablingTrain(instance.getPresentTrain(), train);
+//    }
 
     // this is probably unnecessary since we already mixin into TrackEdge#canTravelTo
 /*    private TrackEdge edge;
