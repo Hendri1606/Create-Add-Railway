@@ -55,6 +55,7 @@ subprojects {
                 }
             }
         }
+        maven { url = "https://maven.ithundxr.dev/hidden" }
     }
 
     dependencies {
