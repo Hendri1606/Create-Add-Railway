@@ -13,7 +13,6 @@
     "MixinLootDataManager",
     "ChunkMapAccessor",
     "ChunkMapAccessor$TrackedEntityAccessor",
-    "NavigationMixin",
     "RollingModeMixin",
     "ServerGamePacketListenerImplMixin"
   ],
