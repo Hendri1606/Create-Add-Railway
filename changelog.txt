@@ -1,4 +1,6 @@
 v1.4.6:
+- Switch from @Redirect to @WrapOperation in MixinCarriageContraptionEntity to fix mixin conflict with VS2
+v1.4.6:
 - Fix Serverside Mixin Crash
 v1.4.5:
 - update to Create 0.5.1f
