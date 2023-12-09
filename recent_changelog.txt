@@ -1,2 +1,2 @@
-v1.4.6:
+v1.4.7:
 - Switch from @Redirect to @WrapOperation in MixinCarriageContraptionEntity to fix mixin conflict with VS2
