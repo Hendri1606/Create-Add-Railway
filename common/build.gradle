@@ -41,6 +41,9 @@ dependencies {
     if (enable_eb.toBoolean()) {
         modCompileOnly("com.rabbitminers:extendedbogeys-common:${EB_verison}+common")
     }
+
+    implementation("com.github.llamalad7.mixinextras:mixinextras-common:${mixin_extras_version}")
+    annotationProcessor("com.github.llamalad7.mixinextras:mixinextras-common:${mixin_extras_version}")
 }
 
 architectury {

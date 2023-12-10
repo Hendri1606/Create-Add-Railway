@@ -1,3 +1,5 @@
+v1.4.8:
+- Jar in Jar Mixin Extra's to fix crash
 v1.4.7:
 - Switch from @Redirect to @WrapOperation in MixinCarriageContraptionEntity to fix mixin conflict with VS2
 v1.4.6:

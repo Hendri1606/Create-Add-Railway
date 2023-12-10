@@ -136,6 +136,9 @@ dependencies {
     if (enable_eb.toBoolean()) {
         modImplementation("com.rabbitminers:extendedbogeys-fabric:${EB_verison}+fabric")
     }
+
+    implementation(include("com.github.llamalad7.mixinextras:mixinextras-fabric:${mixin_extras_version}"))
+    annotationProcessor("com.github.llamalad7.mixinextras:mixinextras-fabric:${mixin_extras_version}")
 }
 
 unifiedPublishing {
